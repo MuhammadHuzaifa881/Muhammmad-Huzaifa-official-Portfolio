@@ -4,7 +4,8 @@ import { useEffect } from 'react';
 
 const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
-    // Only run this code on the client side
+if(identifier){
+      // Only run this code on the client side
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
 
@@ -67,6 +68,7 @@ const GlowCard = ({ children, identifier }) => {
     return () => {
       document.body.removeEventListener('pointermove', UPDATE);
     };
+}
   }, [identifier]);
 
   return (
