@@ -11,7 +11,8 @@ import AnimationLottie from "../../helper/animation-lottie";
 function Experience() {
   return (
     <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
-      <Image
+     hello
+      {/* <Image
         src="/section.svg"
         alt="Hero"
         width={1572}
@@ -75,7 +76,7 @@ function Experience() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
