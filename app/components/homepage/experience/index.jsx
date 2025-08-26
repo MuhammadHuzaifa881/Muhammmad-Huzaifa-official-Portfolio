@@ -35,7 +35,7 @@ function Experience() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
-              <AnimationLottie animationPath={experience} />
+              {/* <AnimationLottie animationPath={experience} /> */}
             </div>
           </div>
 
@@ -61,7 +61,7 @@ function Experience() {
                     </div>
                     <div className="flex items-center gap-x-8 px-3 py-5">
                       <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                        {/* <BsPersonWorkspace size={36} /> */}
+                        <BsPersonWorkspace size={36} />
                       </div>
                       <div>
                         <p className="text-base sm:text-xl mb-2 font-medium uppercase">
