@@ -1,9 +1,9 @@
 import React from 'react'
 import CardLayout from '../Common/CardLayout'
 
-const Edu_Card = ({ data }) => {
+const Edu_Card = ({ data,key }) => {
     return (
-        <CardLayout className='keepItEmpty'>
+        <CardLayout key={key} className='keepItEmpty'>
             <div className="card_stylings transition px-8 py-10">
                 <div className="flex justify-between">
                     <div className="flex-initial text-[17px] text-Snow font-medium">{data.title}</div>

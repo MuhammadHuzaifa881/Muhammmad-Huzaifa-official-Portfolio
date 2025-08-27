@@ -1,10 +1,10 @@
 import CardLayout from './CardLayout'
 
-const ParagraphSkeleton = ({ className }) => {
+const ParagraphSkeleton = ({ className,key }) => {
     return (
 
         <CardLayout>
-            <div role="status" className={`${className} max-w-full card_stylings animate-pulse bg-EveningBlack self-center`}>
+            <div role="status" className={`${className} max-w-full card_stylings animate-pulse bg-EveningBlack self-center`} key={key}>
                 <div className="h-2.5 rounded-full bg-Green/20 w-48 mb-4"></div>
                 <div className="h-2 rounded-full bg-Green/20 max-w-[365px] mb-2.5"></div>
                 <div className="h-2 rounded-full bg-Green/20 mb-2.5"></div>

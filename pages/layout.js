@@ -3,14 +3,10 @@ import Nav from "../components/Common/Nav/Nav";
 import { FaBars, FaMousePointer } from "react-icons/fa";
 import { SlOptionsVertical } from "react-icons/sl";
 import { useState } from "react";
-import { formatMetaData } from "../utils/helpers";
 import Header from "../components/header";
 import Footer from "../components/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
-export const metadata = formatMetaData({
-  title: "Home",
-});
+
 
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -83,7 +79,7 @@ export default function Layout({ children }) {
       {/* Navigation component */}
       {<Nav isOpen={isOpen} setIsOpen={setIsOpen} />}
 
-       <SpeedInsights /> 
+
     </div>
   );
 }

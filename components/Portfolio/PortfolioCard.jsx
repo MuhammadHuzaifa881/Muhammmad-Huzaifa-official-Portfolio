@@ -1,9 +1,10 @@
+import Image from "next/image"
 import Badge from "../Common/Badge"
 
-const PortfolioCard = ({ data }) => {
+const PortfolioCard = ({ data,key }) => {
     return (
-        <div className="card_stylings overflow-hidden h-full">
-            <img
+        <div className="card_stylings overflow-hidden h-full" key={key}>
+            <Image width={100} height={100}
                 src={data?.image}
                 alt="portfolio img"
                 className="w-full object-cover opacity-30 h-32 sm:h-48 md:h-64"

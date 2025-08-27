@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import Typewriter from 'typewriter-effect';
 
@@ -65,7 +66,7 @@ const Banner = () => {
               </a>
             </div>
             <div className="w-48 h-52 relative hidden md:block">
-              <img 
+              <Image width={100} height={100} 
                 className='absolute top-8 w-full h-full animate-float' 
                 src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%234ade80'/%3E%3Ccircle cx='8' cy='9' r='1.5' fill='white'/%3E%3Ccircle cx='16' cy='9' r='1.5' fill='white'/%3E%3Cpath d='M8 15 Q12 19 16 15' stroke='white' stroke-width='2' fill='none'/%3E%3C/svg%3E" 
                 alt="emoji" 

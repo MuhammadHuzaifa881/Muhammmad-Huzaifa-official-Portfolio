@@ -178,7 +178,7 @@ const Contact = () => {
           <h1 className="text-Green font-bold text-2xl">In Progress</h1>
           <a
             className="underline text-Snow"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href={process.env.NEXT_PUBLIC_GITHUB_REPO_URL}
           >
             Be the one to integrate this!
