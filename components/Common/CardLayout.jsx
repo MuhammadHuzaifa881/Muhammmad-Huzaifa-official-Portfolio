@@ -1,4 +1,3 @@
-import React from 'react'
 
 const CardLayout = ({ children, className = "h-full w-full" }) => {
     return (

@@ -1,10 +1,10 @@
-import React from 'react';
+
 import { CONTACTS } from '../../../constants/constants';
 import Link from 'next/link';
 
 const Contact = () => {
   return (
-    <div className='flex flex-col space-y-2 pt-6'>
+    <div className='flex flex-col space-y-2 pt-6 h-screen'>
       <div className='flex flex-col'>
         <span className='text-Snow text-xs font-bold'>Email Address</span>
 

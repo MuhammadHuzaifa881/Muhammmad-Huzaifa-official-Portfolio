@@ -1,4 +1,4 @@
-import React from 'react'
+
 import DrawerLayout from '../DrawerLayout'
 import Intro from '../Intro'
 

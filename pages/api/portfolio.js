@@ -1,28 +1,31 @@
 const portfolio = [
-    {
-        id: 0,
-        projectName: "JMM ERP",
-        url: "https://jmmerp.com/",
-        image: "projects/erp.png",
-        projectDetail: "Restructure your business with JMM ERP’s all-in-one cloud-based ERP. JMM ERP provides a robust, cost-effective online solution with state-of-the-art software to increase business value and enhance customer impact.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "GraphQL"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
+{
+    "id": 0,
+    "projectName": "Aimly.ai",
+    "url": "https://aimly.ai/",
+    "image": "projects/aimly-ai.png", // Consider updating the image filename as well
+    "projectDetail": "An AI-powered customer service chatbot platform. It allows businesses to train a chatbot on their own data (website, docs, PDFs) to automatically answer customer queries, reduce support load, and capture leads 24/7.",
+    "technologiesUsed": [
+        {
+            "tech": "MongoDB"
+        },
+        {
+            "tech": "Express.js"
+        },
+        {
+            "tech": "React"
+        },
+        {
+            "tech": "Node.js"
+        },
+        {
+            "tech": "LangChain / LLMs"
+        },
+        {
+            "tech": "TailwindCSS"
+        }
+    ]
+},
     {
         id: 0,
         projectName: "ABSCO",
@@ -65,102 +68,105 @@ const portfolio = [
             },
         ]
     },
-    {
+        {
         id: 0,
-        projectName: "ALSN",
-        url: "https://alsn.app/",
-        image: "projects/alsn.png",
-        projectDetail: "ASLN drives digital transformation with certified document translation services. In an interconnected world where seamless communication is imperative, they are strategically positioned to cater to the needs of businesses, individuals, and organizations.",
+        projectName: "Lotus Professional",
+        url: "https://lotus-professional.com/",
+        image: "projects/lotus.png", // This path is now correct for this project
+        projectDetail: "The official corporate website for Lotus Professional, an IT consulting and software development company. The website serves as a modern, responsive platform to showcase their services, expertise, client portfolio, and team. It is designed to attract potential clients and communicate the company's value proposition effectively.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
             },
             {
-                tech: ".net"
+                tech: "Node.js"
             },
             {
-                tech: "REST API's"
+                tech: "MongoDB" // Common in MERN, inferred from stack
             },
             {
-                tech: "Ant Design"
+                tech: "Express.js" // Common in MERN, inferred from stack
             },
             {
-                tech: "TailwindCSS"
+                tech: "CSS3/SASS" // Based on the styling techniques observed
             },
+            {
+                tech: "REST API's" // Standard for modern web apps
+            }
         ]
     },
     {
         id: 0,
-        projectName: "FirmSanad",
-        url: "/domain-expired",
-        image: "projects/firmsanad.png",
-        projectDetail: "Invest in Saudi Arabia, Streamline Your Business Setup Process in Saudi Arabia with FirmSanad Simplify the process of obtaining licenses and starting a business in Saudi Arabia with our streamlined platform.",
+        projectName: "Aimly",
+        url: "https://aimly.in/",
+        image: "projects/aimly-1.png", // You would save a screenshot as this filename
+        projectDetail: "The official website for Aimly, a performance-based digital marketing agency. The website is designed to be a high-converting marketing tool that clearly communicates their data-driven approach to SEO, PPC, and social media marketing services. It features a modern, bold design with a focus on generating client inquiries.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Webflow" // The site is built on Webflow, not directly on MERN.
             },
             {
-                tech: ".net"
+                tech: "HTML5"
             },
             {
-                tech: "REST API's"
+                tech: "CSS3"
             },
             {
-                tech: "Ant Design"
+                tech: "JavaScript"
             },
             {
-                tech: "TailwindCSS"
-            },
+                tech: "Finsweet" // Common Webflow library/attribute system
+            }
         ]
     },
-    {
-        id: 0,
-        projectName: "Fateh Al Mustaqbil",
-        url: "https://fatehtour.com/",
-        image: "projects/fateh.png",
-        projectDetail: "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "Tojjar",
-        url: "/domain-expired",
-        image: "projects/tojjar.png",
-        projectDetail: "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
-        technologiesUsed: [
-            {
-                tech: "Nextjs with SSR"
-            },
-            {
-                tech: "Laravel"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
+  {
+    id: 0,
+    projectName: "Giftkarte",
+    url: "https://www.giftkarte.com/",
+    image: "projects/giftkarte.png", // Changed from 'fateh.png'
+    projectDetail: "Giftkarte is a comprehensive B2B and B2C gifting platform that allows businesses and individuals to purchase and manage gift cards, vouchers, and corporate gifting programs. The website facilitates browsing a wide range of gift options from various brands, making it a streamlined solution for corporate rewards and personal gifting.",
+    technologiesUsed: [
+        {
+            tech: "WordPress" // The site is built on WordPress/WooCommerce.
+        },
+        {
+            tech: "PHP"
+        },
+        {
+            tech: "WooCommerce" // It is fundamentally an e-commerce store.
+        },
+        {
+            tech: "JavaScript"
+        },
+        {
+            tech: "jQuery"
+        },
+        {
+            tech: "MySQL"
+        }
+    ]
+},
+{
+    id: 0,
+    projectName: "Baxity Store",
+    url: "https://baxity.com/store/",
+    image: "projects/baxity-store.png", // Changed from 'tojjar.png'
+    projectDetail: "The Baxity Store is a comprehensive B2B and B2C e-commerce platform offering a wide range of IT products, including software licenses, hardware, and cloud solutions. It provides a seamless shopping experience with detailed product information, category filtering, and a secure checkout process, supporting both individual customers and business clients.",
+    technologiesUsed: [
+        {
+            tech: "Shopify" // The store is built on Shopify.
+        },
+        {
+            tech: "JavaScript"
+        },
+        {
+            tech: "HTML5"
+        },
+        {
+            tech: "CSS3"
+        }
+    ]
+},
     {
         id: 1,
         projectName: "Otawix",
@@ -209,27 +215,36 @@ const portfolio = [
             },
         ]
     },
-    // {
-    //     id: 2,
-    //     projectName: "Culyte",
-    //     url: "https://culyte.com",
-    //     image: "projects/culyte.png",
-    //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-    //     technologiesUsed: [
-    //         {
-    //             tech: "ReactJS"
-    //         },
-    //         {
-    //             tech: "NodeJS"
-    //         },
-    //         {
-    //             tech: "Ant Design"
-    //         },
-    //         {
-    //             tech: "TailwindCSS"
-    //         },
-    //     ]
-    // },
+    {
+    "id": 0,
+    "projectName": "Ninety.io",
+    "url": "https://www.ninety.io/",
+    "image": "projects/ninety.png",
+    "projectDetail": "Ninety is an integrated platform designed to help organizations streamline their operations, improve alignment, and drive productivity. It provides tools for meetings, goal tracking, accountability, and strategic planning, making it easier for teams to work cohesively and achieve their objectives. The website serves as a informative landing page to showcase Ninety's features and value proposition to potential customers.",
+    "technologiesUsed": [
+        {
+            "tech": "Webflow"
+        },
+        {
+            "tech": "React Js"
+        },
+        {
+            "tech": "Material UI"
+        },
+        {
+            "tech": "Tailwindcss"
+        },
+          {
+            "tech": "Node Js"
+        },
+          {
+            "tech": "Express Js"
+        },
+          {
+            "tech": "Postgress"
+        },
+    ]
+}
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)

@@ -11,8 +11,7 @@ const ClientReviews = () => {
         axios.get('api/review')
             .then(({ data }) => data)
             .catch(error => console.error('Error fetching testimonials:', error)))
-
-
+            
     return (
         <>
             <div className="px-2 md:px-8 py-4 text-lg font-bold text-Snow">Clients Reviews</div>
